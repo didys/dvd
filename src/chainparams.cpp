@@ -97,7 +97,7 @@ public:
         pchMessageStart[3] = 0x5a;
         vAlertPubKey = ParseHex("045970cc026d5f7b4e91096157353064f20b5c2ed31a7535b0cec4bac4be4dcb745b1385efde196652ff8eab9d776c357d2b3aa8e0aebe4c106f2a7061201dd107");
         nDefaultPort = 29997;
-        bnProofOfWorkLimit = ~uint256(0) >> 10; // Dividendcash starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 15; // Dividendcash starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
